@@ -1,0 +1,170 @@
+/*!
+Theme Name: ArtsPlans Interior Design
+Description: A modern interior design platform theme with bilingual support (English/Arabic) for showcasing floor plans, 3D models, and design resources.
+Author: ArtsPlans Team
+Version: 1.0.0
+License: GPL v2 or later
+Text Domain: artsplans
+Domain Path: /languages
+Tags: interior-design, portfolio, marketplace, bilingual, modern, clean
+*/
+
+/* Import Tailwind CSS */
+@import url('https://cdn.tailwindcss.com');
+
+/* Custom CSS Variables (matching original design) */
+:root {
+  --background: 0 0% 100%;
+  --foreground: 215 25% 15%;
+  --card: 0 0% 100%;
+  --card-foreground: 215 25% 15%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 215 25% 15%;
+  --primary: 215 30% 25%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 210 20% 96%;
+  --secondary-foreground: 215 25% 15%;
+  --muted: 210 20% 96%;
+  --muted-foreground: 215 15% 55%;
+  --accent: 25 75% 55%;
+  --accent-foreground: 0 0% 100%;
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 220 15% 90%;
+  --input: 220 15% 90%;
+  --ring: 215 30% 25%;
+  --radius: 0.75rem;
+  --brand-primary: 215 30% 25%;
+  --brand-secondary: 25 75% 55%;
+  --brand-neutral: 210 15% 85%;
+  --brand-dark: 215 35% 15%;
+  --brand-light: 210 20% 98%;
+}
+
+.dark {
+  --background: 215 30% 8%;
+  --foreground: 210 20% 95%;
+  --card: 215 28% 12%;
+  --card-foreground: 210 20% 95%;
+  --popover: 215 28% 12%;
+  --popover-foreground: 210 20% 95%;
+  --primary: 210 20% 95%;
+  --primary-foreground: 215 30% 15%;
+  --secondary: 215 25% 20%;
+  --secondary-foreground: 210 20% 95%;
+  --muted: 215 25% 20%;
+  --muted-foreground: 210 15% 70%;
+  --accent: 25 75% 55%;
+  --accent-foreground: 0 0% 100%;
+  --destructive: 0 62% 50%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 215 25% 20%;
+  --input: 215 25% 20%;
+  --ring: 210 20% 95%;
+  --brand-primary: 210 20% 95%;
+  --brand-secondary: 25 75% 55%;
+  --brand-neutral: 215 20% 25%;
+  --brand-dark: 210 20% 95%;
+  --brand-light: 215 30% 8%;
+}
+
+/* Base Styles */
+* {
+  border-color: hsl(var(--border));
+}
+
+body {
+  background-color: hsl(var(--background));
+  color: hsl(var(--foreground));
+  font-feature-settings: "rlig" 1, "calt" 1;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+/* Grid pattern for hero background */
+.bg-grid-pattern {
+  background-image: radial-gradient(
+    circle,
+    hsl(var(--brand-primary) / 0.1) 1px,
+    transparent 1px
+  );
+  background-size: 20px 20px;
+}
+
+/* Custom animations */
+.btn-hover-lift:hover {
+  transform: translateY(-2px);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 10px 10px -5px rgb(0 0 0 / 0.04);
+  transition: all 0.3s ease-in-out;
+}
+
+/* RTL Support */
+[dir="rtl"] {
+  direction: rtl;
+  text-align: right;
+}
+
+[dir="rtl"] .ltr {
+  direction: ltr;
+  text-align: left;
+}
+
+/* WordPress-specific styles */
+.wp-block-group {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.entry-content {
+  line-height: 1.6;
+}
+
+/* Responsive images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Accessibility improvements */
+a:focus,
+button:focus,
+input:focus,
+textarea:focus,
+select:focus {
+  outline: 2px solid hsl(var(--ring));
+  outline-offset: 2px;
+}
+
+/* Screen reader text */
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  word-wrap: normal !important;
+}
+
+.screen-reader-text:focus {
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  color: #21759b;
+  display: block;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+}
