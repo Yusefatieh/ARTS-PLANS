@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This is a WordPress eXtended RSS file generated as an export of your site. -->
+<!-- It contains information about your site's posts, pages, comments, categories, and other content. -->
+<!-- You may use this file to transfer that content from one site to another. -->
+<!-- This file is not intended to serve as a complete backup of your site. -->
+
+<rss version="2.0"
+	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:wp="http://wordpress.org/export/1.2/"
+>
+
+<channel>
+	<title>ArtsPlans Demo Content</title>
+	<link>http://artsplans.local</link>
+	<description>Interior Design Platform Demo Content</description>
+	<pubDate>Mon, 01 Jan 2024 12:00:00 +0000</pubDate>
+	<language>en-US</language>
+	<wp:wxr_version>1.2</wp:wxr_version>
+	<wp:base_site_url>http://artsplans.local</wp:base_site_url>
+	<wp:base_blog_url>http://artsplans.local</wp:base_blog_url>
+
+	<!-- Categories -->
+	<wp:category>
+		<wp:term_id>1</wp:term_id>
+		<wp:category_nicename>modern-kitchen</wp:category_nicename>
+		<wp:category_parent></wp:category_parent>
+		<wp:cat_name><![CDATA[Modern Kitchen]]></wp:cat_name>
+		<wp:category_description><![CDATA[Contemporary kitchen designs with clean lines and modern appliances]]></wp:category_description>
+	</wp:category>
+
+	<wp:category>
+		<wp:term_id>2</wp:term_id>
+		<wp:category_nicename>living-room</wp:category_nicename>
+		<wp:category_parent></wp:category_parent>
+		<wp:cat_name><![CDATA[Living Room]]></wp:cat_name>
+		<wp:category_description><![CDATA[Comfortable and stylish living room layouts]]></wp:category_description>
+	</wp:category>
+
+	<wp:category>
+		<wp:term_id>3</wp:term_id>
+		<wp:category_nicename>bedroom</wp:category_nicename>
+		<wp:category_parent></wp:category_parent>
+		<wp:cat_name><![CDATA[Bedroom]]></wp:cat_name>
+		<wp:category_description><![CDATA[Peaceful and functional bedroom designs]]></wp:category_description>
+	</wp:category>
+
+	<wp:category>
+		<wp:term_id>4</wp:term_id>
+		<wp:category_nicename>bathroom</wp:category_nicename>
+		<wp:category_parent></wp:category_parent>
+		<wp:cat_name><![CDATA[Bathroom]]></wp:cat_name>
+		<wp:category_description><![CDATA[Modern bathroom layouts and fixtures]]></wp:category_description>
+	</wp:category>
+
+	<wp:category>
+		<wp:term_id>5</wp:term_id>
+		<wp:category_nicename>office-space</wp:category_nicename>
+		<wp:category_parent></wp:category_parent>
+		<wp:cat_name><![CDATA[Office Space]]></wp:cat_name>
+		<wp:category_description><![CDATA[Professional and productive office layouts]]></wp:category_description>
+	</wp:category>
+
+	<!-- Design Category Taxonomy -->
+	<wp:term>
+		<wp:term_id>6</wp:term_id>
+		<wp:term_taxonomy>design_category</wp:term_taxonomy>
+		<wp:term_slug>modern-kitchen</wp:term_slug>
+		<wp:term_parent></wp:term_parent>
+		<wp:term_name><![CDATA[Modern Kitchen]]></wp:term_name>
+		<wp:term_description><![CDATA[Contemporary kitchen designs with clean lines and modern appliances]]></wp:term_description>
+	</wp:term>
+
+	<wp:term>
+		<wp:term_id>7</wp:term_id>
+		<wp:term_taxonomy>design_category</wp:term_taxonomy>
+		<wp:term_slug>living-room</wp:term_slug>
+		<wp:term_parent></wp:term_parent>
+		<wp:term_name><![CDATA[Living Room]]></wp:term_name>
+		<wp:term_description><![CDATA[Comfortable and stylish living room layouts]]></wp:term_description>
+	</wp:term>
+
+	<wp:term>
+		<wp:term_id>8</wp:term_id>
+		<wp:term_taxonomy>design_category</wp:term_taxonomy>
+		<wp:term_slug>bedroom</wp:term_slug>
+		<wp:term_parent></wp:term_parent>
+		<wp:term_name><![CDATA[Bedroom]]></wp:term_name>
+		<wp:term_description><![CDATA[Peaceful and functional bedroom designs]]></wp:term_description>
+	</wp:term>
+
+	<!-- Sample Floor Plans -->
+	<item>
+		<title>Modern Kitchen Layout with Island</title>
+		<link>http://artsplans.local/floor-plans/modern-kitchen-island/</link>
+		<pubDate>Mon, 01 Jan 2024 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://artsplans.local/?post_type=floor_plan&#038;p=1</guid>
+		<description></description>
+		<content:encoded><![CDATA[A spacious modern kitchen design featuring a large central island, perfect for entertaining and food preparation. This layout maximizes counter space while maintaining an open feel that connects seamlessly with the dining and living areas.
+
+Features:
+- Large central island with bar seating
+- Ample cabinet storage
+- Modern appliance layout
+- Efficient work triangle
+- Open concept design
+
+Perfect for modern homes and apartments looking for a functional yet stylish kitchen solution.]]></content:encoded>
+		<excerpt:encoded><![CDATA[A spacious modern kitchen design featuring a large central island, perfect for entertaining and food preparation.]]></excerpt:encoded>
+		<wp:post_id>1</wp:post_id>
+		<wp:post_date>2024-01-01 10:00:00</wp:post_date>
+		<wp:post_date_gmt>2024-01-01 10:00:00</wp:post_date_gmt>
+		<wp:post_modified>2024-01-01 10:00:00</wp:post_modified>
+		<wp:post_modified_gmt>2024-01-01 10:00:00</wp:post_modified_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>modern-kitchen-island</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>floor_plan</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="design_category" nicename="modern-kitchen"><![CDATA[Modern Kitchen]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_artsplans_price]]></wp:meta_key>
+			<wp:meta_value><![CDATA[29.99]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_artsplans_download_count]]></wp:meta_key>
+			<wp:meta_value><![CDATA[245]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_artsplans_file_size]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2.4 MB]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_artsplans_software]]></wp:meta_key>
+			<wp:meta_value><![CDATA[AutoCAD, SketchUp, Revit]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_artsplans_featured]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title>Cozy Living Room Design</title>
+		<link>http://artsplans.local/floor-plans/cozy-living-room/</link>
+		<pubDate>Mon, 01 Jan 2024 11:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://artsplans.local/?post_type=floor_plan&#038;p=2</guid>
+		<description></description>
+		<content:encoded><![CDATA[A warm and inviting living room layout designed for comfort and conversation. This design features a thoughtful furniture arrangement that encourages gathering while maximizing natural light and flow throughout the space.
+
+Features:
+- Comfortable seating arrangement
+- Fireplace focal point
+- Entertainment center integration
+- Optimal lighting design
+- Traffic flow consideration
+
+Ideal for families and those who love to entertain guests in a comfortable, welcoming environment.]]></content:encoded>
+		<excerpt:encoded><![CDATA[A warm and inviting living room layout designed for comfort and conversation.]]></excerpt:encoded>
+		<wp:post_id>2</wp:post_id>
+		<wp:post_date>2024-01-01 11:00:00</wp:post_date>
+		<wp:post_date_gmt>2024-01-01 11:00:00</wp:post_date_gmt>
+		<wp:post_modified>2024-01-01 11:00:00</wp:post_modified>
+		<wp:post_modified_gmt>2024-01-01 11:00:00</wp:post_modified_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>cozy-living-room</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>floor_plan</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="design_category" nicename="living-room"><![CDATA[Living Room]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_artsplans_price]]></wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_artsplans_download_count]]></wp:meta_key>
+			<wp:meta_value><![CDATA[189]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_artsplans_file_size]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1.8 MB]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_artsplans_software]]></wp:meta_key>
+			<wp:meta_value><![CDATA[AutoCAD, SketchUp]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_artsplans_featured]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title>Master Bedroom Suite</title>
+		<link>http://artsplans.local/floor-plans/master-bedroom-suite/</link>
+		<pubDate>Mon, 01 Jan 2024 12:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://artsplans.local/?post_type=floor_plan&#038;p=3</guid>
+		<description></description>
+		<content:encoded><![CDATA[A luxurious master bedroom suite complete with walk-in closet and en-suite bathroom. This design prioritizes comfort, privacy, and functionality while creating a serene retreat within the home.
+
+Features:
+- Spacious bedroom layout
+- Walk-in closet with organized storage
+- En-suite bathroom with double vanity
+- Private sitting area
+- Balcony access
+
+Perfect for luxury homes and those seeking a private sanctuary with all the amenities of a high-end hotel suite.]]></content:encoded>
+		<excerpt:encoded><![CDATA[A luxurious master bedroom suite complete with walk-in closet and en-suite bathroom.]]></excerpt:encoded>
+		<wp:post_id>3</wp:post_id>
+		<wp:post_date>2024-01-01 12:00:00</wp:post_date>
+		<wp:post_date_gmt>2024-01-01 12:00:00</wp:post_date_gmt>
+		<wp:post_modified>2024-01-01 12:00:00</wp:post_modified>
+		<wp:post_modified_gmt>2024-01-01 12:00:00</wp:post_modified_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>master-bedroom-suite</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>floor_plan</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="design_category" nicename="bedroom"><![CDATA[Bedroom]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_artsplans_price]]></wp:meta_key>
+			<wp:meta_value><![CDATA[49.99]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_artsplans_download_count]]></wp:meta_key>
+			<wp:meta_value><![CDATA[156]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_artsplans_file_size]]></wp:meta_key>
+			<wp:meta_value><![CDATA[3.2 MB]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_artsplans_software]]></wp:meta_key>
+			<wp:meta_value><![CDATA[AutoCAD, Revit, SketchUp]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_artsplans_featured]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<!-- Sample 3D Models -->
+	<item>
+		<title>Modern Sofa Set 3D Model</title>
+		<link>http://artsplans.local/3d-models/modern-sofa-set/</link>
+		<pubDate>Mon, 01 Jan 2024 13:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://artsplans.local/?post_type=model_3d&#038;p=4</guid>
+		<description></description>
+		<content:encoded><![CDATA[High-quality 3D model of a contemporary sofa set perfect for modern living rooms. This detailed model includes textures and materials, ready for rendering and architectural visualization.
+
+Specifications:
+- High-resolution textures included
+- Multiple material options
+- Optimized polygon count
+- Compatible with major 3D software
+- Includes lighting setup
+
+Ideal for interior designers, architects, and 3D artists working on residential projects.]]></content:encoded>
+		<excerpt:encoded><![CDATA[High-quality 3D model of a contemporary sofa set perfect for modern living rooms.]]></excerpt:encoded>
+		<wp:post_id>4</wp:post_id>
+		<wp:post_date>2024-01-01 13:00:00</wp:post_date>
+		<wp:post_date_gmt>2024-01-01 13:00:00</wp:post_date_gmt>
+		<wp:post_modified>2024-01-01 13:00:00</wp:post_modified>
+		<wp:post_modified_gmt>2024-01-01 13:00:00</wp:post_modified_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>modern-sofa-set</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>model_3d</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="design_category" nicename="living-room"><![CDATA[Living Room]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_artsplans_price]]></wp:meta_key>
+			<wp:meta_value><![CDATA[19.99]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_artsplans_download_count]]></wp:meta_key>
+			<wp:meta_value><![CDATA[332]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_artsplans_file_size]]></wp:meta_key>
+			<wp:meta_value><![CDATA[15.6 MB]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_artsplans_software]]></wp:meta_key>
+			<wp:meta_value><![CDATA[3ds Max, Blender, Maya, Cinema 4D]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_artsplans_featured]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<!-- Pages -->
+	<item>
+		<title>Browse</title>
+		<link>http://artsplans.local/browse/</link>
+		<pubDate>Mon, 01 Jan 2024 14:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://artsplans.local/?page_id=5</guid>
+		<description></description>
+		<content:encoded><![CDATA[Browse our extensive collection of interior design resources including floor plans, 3D models, and furniture designs. Find inspiration and download high-quality assets for your next project.]]></content:encoded>
+		<excerpt:encoded><![CDATA[Browse our extensive collection of interior design resources.]]></excerpt:encoded>
+		<wp:post_id>5</wp:post_id>
+		<wp:post_date>2024-01-01 14:00:00</wp:post_date>
+		<wp:post_date_gmt>2024-01-01 14:00:00</wp:post_date_gmt>
+		<wp:post_modified>2024-01-01 14:00:00</wp:post_modified>
+		<wp:post_modified_gmt>2024-01-01 14:00:00</wp:post_modified_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>browse</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+
+	<item>
+		<title>Categories</title>
+		<link>http://artsplans.local/categories/</link>
+		<pubDate>Mon, 01 Jan 2024 14:30:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://artsplans.local/?page_id=6</guid>
+		<description></description>
+		<content:encoded><![CDATA[Explore our organized categories to find exactly what you're looking for. From kitchens to bedrooms, offices to commercial spaces - discover designs sorted by room type and style.]]></content:encoded>
+		<excerpt:encoded><![CDATA[Explore our organized categories to find exactly what you're looking for.]]></excerpt:encoded>
+		<wp:post_id>6</wp:post_id>
+		<wp:post_date>2024-01-01 14:30:00</wp:post_date>
+		<wp:post_date_gmt>2024-01-01 14:30:00</wp:post_date_gmt>
+		<wp:post_modified>2024-01-01 14:30:00</wp:post_modified>
+		<wp:post_modified_gmt>2024-01-01 14:30:00</wp:post_modified_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>categories</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+
+	<item>
+		<title>Upload</title>
+		<link>http://artsplans.local/upload/</link>
+		<pubDate>Mon, 01 Jan 2024 15:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://artsplans.local/?page_id=7</guid>
+		<description></description>
+		<content:encoded><![CDATA[Share your designs with the world! Upload your floor plans, 3D models, and design assets to our marketplace. Start earning from your creative work today.
+
+<h3>Why Upload to ArtsPlans?</h3>
+<ul>
+<li>Reach thousands of designers and architects</li>
+<li>Earn revenue from your designs</li>
+<li>Build your professional portfolio</li>
+<li>Connect with the design community</li>
+</ul>
+
+Ready to get started? Create an account and begin uploading your designs today!]]></content:encoded>
+		<excerpt:encoded><![CDATA[Share your designs with the world! Upload your floor plans, 3D models, and design assets to our marketplace.]]></excerpt:encoded>
+		<wp:post_id>7</wp:post_id>
+		<wp:post_date>2024-01-01 15:00:00</wp:post_date>
+		<wp:post_date_gmt>2024-01-01 15:00:00</wp:post_date_gmt>
+		<wp:post_modified>2024-01-01 15:00:00</wp:post_modified>
+		<wp:post_modified_gmt>2024-01-01 15:00:00</wp:post_modified_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>upload</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+
+	<item>
+		<title>About</title>
+		<link>http://artsplans.local/about/</link>
+		<pubDate>Mon, 01 Jan 2024 15:30:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://artsplans.local/?page_id=8</guid>
+		<description></description>
+		<content:encoded><![CDATA[<h2>Welcome to ArtsPlans</h2>
+
+ArtsPlans is the premier destination for interior design resources, floor plans, and 3D models. We connect talented designers with professionals and enthusiasts who need high-quality design assets for their projects.
+
+<h3>Our Mission</h3>
+To democratize access to professional interior design resources while providing a platform for designers to showcase and monetize their work.
+
+<h3>What We Offer</h3>
+<ul>
+<li><strong>Floor Plans:</strong> Detailed architectural drawings for residential and commercial spaces</li>
+<li><strong>3D Models:</strong> High-quality furniture and decor models for visualization</li>
+<li><strong>Design Assets:</strong> Textures, materials, and other design elements</li>
+<li><strong>Professional Tools:</strong> Resources for architects, designers, and developers</li>
+</ul>
+
+<h3>Our Community</h3>
+Join thousands of designers, architects, and design enthusiasts who rely on ArtsPlans for their creative projects. Whether you're designing a dream home or planning a commercial space, we have the resources you need.
+
+<h3>Quality Guarantee</h3>
+Every design resource on our platform is carefully reviewed to ensure the highest quality standards. We work with professional designers and architects to bring you assets that meet industry standards.
+
+Ready to explore? <a href="/browse/">Start browsing our collection</a> or <a href="/upload/">upload your own designs</a> to join our creator community.]]></content:encoded>
+		<excerpt:encoded><![CDATA[ArtsPlans is the premier destination for interior design resources, floor plans, and 3D models.]]></excerpt:encoded>
+		<wp:post_id>8</wp:post_id>
+		<wp:post_date>2024-01-01 15:30:00</wp:post_date>
+		<wp:post_date_gmt>2024-01-01 15:30:00</wp:post_date_gmt>
+		<wp:post_modified>2024-01-01 15:30:00</wp:post_modified>
+		<wp:post_modified_gmt>2024-01-01 15:30:00</wp:post_modified_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>about</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+
+</channel>
+</rss>
