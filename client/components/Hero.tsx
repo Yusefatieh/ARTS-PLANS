@@ -52,8 +52,8 @@ export default function Hero() {
 
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-gray-900 leading-tight">
               Download Beautiful{" "}
-              <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                Interior Designs
+              <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text" style={{ color: "#034a29" }}>
+                &nbsp;Interior Designs
               </span>
             </h1>
 
@@ -85,7 +85,8 @@ export default function Hero() {
                   />
                   <Button
                     size="lg"
-                    className="m-1 px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700"
+                    className="m-1 px-8 py-4 hover:opacity-90"
+                    style={{ backgroundColor: "#e47525" }}
                     onClick={() => navigate("/search")}
                   >
                     Search
@@ -128,7 +129,8 @@ export default function Hero() {
             </Button>
             <Button
               size="lg"
-              className="px-8 py-3 bg-gradient-to-r from-green-600 to-blue-600 hover:from-green-700 hover:to-blue-700"
+              className="px-8 py-3 hover:opacity-90"
+              style={{ backgroundColor: "#034a29" }}
               onClick={() => navigate("/upload")}
             >
               Start Selling Your Designs
