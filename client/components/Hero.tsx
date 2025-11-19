@@ -52,7 +52,7 @@ export default function Hero() {
 
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-gray-900 leading-tight">
               Download Beautiful{" "}
-              <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text" style={{ color: "#034a29" }}>
+              <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text" style={{ color: "#e47525" }}>
                 &nbsp;Interior Designs
               </span>
             </h1>
@@ -144,7 +144,7 @@ export default function Hero() {
               return (
                 <div key={index} className="text-center">
                   <div className="inline-flex items-center justify-center w-12 h-12 bg-gradient-to-br from-blue-100 to-purple-100 rounded-xl mb-2">
-                    <Icon className="w-6 h-6 text-blue-600" />
+                    <Icon className="w-6 h-6" style={{ color: "#034a29" }} />
                   </div>
                   <div className="text-2xl md:text-3xl font-bold text-gray-900">
                     {stat.value}
