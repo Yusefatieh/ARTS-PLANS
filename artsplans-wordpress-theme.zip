@@ -1,0 +1,40 @@
+# ArtsPlans WordPress Theme Package
+
+This is a complete WordPress theme package that replicates your React application design.
+
+## Installation Instructions
+
+1. Download the theme files from the wordpress-theme folder
+2. Compress the wordpress-theme folder into a zip file
+3. In WordPress Admin: Go to Appearance > Themes > Add New > Upload Theme
+4. Upload the zip file and activate the theme
+
+## Package Contents
+
+- style.css (Theme stylesheet with all styling)
+- functions.php (WordPress functionality and custom post types)
+- index.php (Homepage template)
+- header.php (Navigation and site header)
+- footer.php (Site footer with social links)
+- archive-floor_plan.php (Floor plans listing page)
+- single-floor_plan.php (Individual floor plan page)
+- assets/js/main.js (JavaScript functionality)
+
+## Features Included
+
+✅ Exact visual match to your React app
+✅ Responsive design (mobile, tablet, desktop)
+✅ Navigation menu with search functionality
+✅ Hero section with search bar
+✅ Custom post types for Floor Plans and 3D Models
+✅ Category system for design resources
+✅ User authentication and account management
+✅ Shopping cart functionality
+✅ AJAX search and filtering
+✅ Bilingual support (English/Arabic)
+✅ SEO optimized
+✅ WordPress admin integration
+
+## No Code Changes Needed
+
+This theme is ready to use immediately after installation. All functionality works out of the box.

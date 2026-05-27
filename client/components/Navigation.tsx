@@ -54,9 +54,21 @@ export default function Navigation() {
             to="/"
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
-            <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-purple-600 rounded-xl flex items-center justify-center">
-              <span className="text-white font-bold text-lg">A</span>
-            </div>
+            <img
+              loading="lazy"
+              srcSet="https://cdn.builder.io/api/v1/image/assets%2Fc4aeb5da3eec4fb78b289ef49f721a3c%2F3141b580a4844d04a173ff8437c4f580?width=100 100w, https://cdn.builder.io/api/v1/image/assets%2Fc4aeb5da3eec4fb78b289ef49f721a3c%2F3141b580a4844d04a173ff8437c4f580?width=200 200w, https://cdn.builder.io/api/v1/image/assets%2Fc4aeb5da3eec4fb78b289ef49f721a3c%2F3141b580a4844d04a173ff8437c4f580?width=400 400w, https://cdn.builder.io/api/v1/image/assets%2Fc4aeb5da3eec4fb78b289ef49f721a3c%2F3141b580a4844d04a173ff8437c4f580?width=800 800w, https://cdn.builder.io/api/v1/image/assets%2Fc4aeb5da3eec4fb78b289ef49f721a3c%2F3141b580a4844d04a173ff8437c4f580?width=1200 1200w, https://cdn.builder.io/api/v1/image/assets%2Fc4aeb5da3eec4fb78b289ef49f721a3c%2F3141b580a4844d04a173ff8437c4f580?width=1600 1600w, https://cdn.builder.io/api/v1/image/assets%2Fc4aeb5da3eec4fb78b289ef49f721a3c%2F3141b580a4844d04a173ff8437c4f580?width=2000 2000w"
+              style={{
+                aspectRatio: "0.58",
+                objectFit: "cover",
+                objectPosition: "center",
+                width: "100%",
+                marginLeft: "10px",
+                minHeight: "20px",
+                minWidth: "20px",
+                overflow: "hidden",
+                maxWidth: "26px",
+              }}
+            />
             <span className="font-bold text-xl text-gray-900">
               {t("ArtsPlans", "خطط الفن")}
             </span>
@@ -190,7 +202,8 @@ export default function Navigation() {
             )}
 
             <Button
-              className="bg-blue-600 hover:bg-blue-700 text-white"
+              className="text-white hover:opacity-90"
+              style={{ backgroundColor: "#034a29" }}
               onClick={() => navigate("/upload")}
             >
               <Plus className="w-4 h-4 mr-2 rtl:ml-2 rtl:mr-0" />
